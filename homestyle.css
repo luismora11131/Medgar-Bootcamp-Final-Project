@@ -1,16 +1,22 @@
 
-#subheader {
+.subheader {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
     background-color: rgb(233, 201, 19);
+    border-bottom: 2px black solid;
+}
+
+
+
+.linkCenter{
     border: 2px black solid;
 }
 
 #mainbody {
     border: 2px solid black;
     font-family: latha, "Times New Roman", Times, serif;
-    color: white;
+    color: black;
     /* background-color: yellow; */
     /* background-image: url("rona.jpg") no-repeat; */
     /* background-size: cover;
@@ -18,6 +24,14 @@
   
 }
 
-#subbody {
-    border: 2px black solid;
+#mainLinks{
+    margin:auto;
+    position:relative;
+    width: 600px; /* or whatever width */
 }
+
+#subbody {
+    border-bottom: 2px black solid;
+}
+
+
