@@ -1,0 +1,16 @@
+#subheader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(233, 201, 19);
+    border: 2px black solid;
+}
+
+#mainbody {
+    border: 2px solid black;
+  
+}
+
+#subbody {
+    border: 2px black solid;
+}
