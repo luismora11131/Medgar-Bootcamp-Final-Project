@@ -1,8 +1,23 @@
-body {
-  font-family: latha, "Times New Roman", Times, serif;
-  color: white;
-  /* background-color: yellow; */
-  /* background-image: url("rona.jpg") no-repeat; */
-  /* background-size: cover;
-  background-attachment: fixed; */
+
+#subheader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(233, 201, 19);
+    border: 2px black solid;
+}
+
+#mainbody {
+    border: 2px solid black;
+    font-family: latha, "Times New Roman", Times, serif;
+    color: white;
+    /* background-color: yellow; */
+    /* background-image: url("rona.jpg") no-repeat; */
+    /* background-size: cover;
+    background-attachment: fixed; */
+  
+}
+
+#subbody {
+    border: 2px black solid;
 }
