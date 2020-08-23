@@ -1,14 +1,14 @@
-/* 
+
 #mainheader {
     display: flex;
     vertical-align: text-top;
-    justify-content: right; 
-    background-color: yellow;
+    justify-content: right;
+    background-color:#9AC2C9;
     border-bottom: 2px black solid;
-    color: black;
-     
+    color: darkcyan;
     
-} */
+    
+}
 
 
 /* Edit image text overlay */
@@ -35,14 +35,14 @@
   
   }
   
-  .top{
+  .top-right {
     position: absolute;
     top: 8px;
-   
+    right: 16px;
 
   
-    }
-  
+}
+  }
   
   .bottom-right {
     position: absolute;
@@ -61,52 +61,12 @@
 
 /* end of image edit */
 
-
-/* nav styles */
-  #navigationBar{
-      border: black;
-      padding: 1px;
-  }
-
-    a {
-    text-decoration: none;
-    color: gold;
-  }
-  
-  ul li {
-    list-style: none;
-  }
-  
-  nav {
-    background: black;
-    width: 100%;
-  }
-  
-  nav ul {
-    display: flex;
-    justify-content: center;
-  }
-  
-  nav ul li {
-    margin: 5px;
-    text-transform: uppercase;
-    border-right: 1px solid white;
-    padding-right: 10px;
-  }
-  
-  nav ul li:last-child {
-    border: none;
-  }
-/* nav styles end */
-
 #mainfooter {
     display: flex;
     align-items: center;
     justify-content: right;
-    /* background-color: rgb(233, 201, 19); */
+    background-color: rgb(233, 201, 19);
     border-top: 2px black solid;
-    border-radius: 25px;
-    background: blue;
 }
 
 
@@ -121,9 +81,7 @@
     border: 2px solid black;
     font-family: latha, "Times New Roman", Times, serif;
     color: black;
-    border: 10px paleturquoise solid;
-    background-color: black ;
-
+    border: 10px black solid;
     /* background-color: yellow; */
     /* background-image: url("rona.jpg") no-repeat; */
     /* background-size: cover;
@@ -135,7 +93,6 @@
     border-radius: 20px;
     border: 2px solid #73AD21;
     padding: 20px; 
-    background-color: white;
 }
 
 #mainLinks{
