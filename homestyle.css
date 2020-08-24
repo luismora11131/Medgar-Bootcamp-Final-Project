@@ -11,9 +11,6 @@
   color: white;
 }
 
-
-    
-
 #top {
   position: absolute;
   top: 8px;
@@ -104,7 +101,7 @@ nav ul li:last-child {
   /* background-color: black ; */
   background-image: linear-gradient(to bottom right, black, grey);
   background-size: cover;
-  line-height: 1.7;
+  /* line-height: 1.7; */
   overflow-x: hidden;
   overflow-y: scroll;
   /* background-color: yellow; */
@@ -154,4 +151,3 @@ html {
 /* #subbody {
     border-bottom: 2px black solid;
 } */
-
