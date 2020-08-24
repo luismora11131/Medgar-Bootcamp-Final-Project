@@ -1,8 +1,16 @@
-#mainLinks {
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  /* margin: 0;
+  padding: 0; */
+}
+mainLinks {
   margin: auto;
   position: relative;
   width: 600px; /* or whatever width */
 }
+
 /* Edit image text overlay */
 .container {
   position: relative;
@@ -38,8 +46,8 @@
 /* nav styles */
 #navigationBar {
   border: black;
-  /* padding: 1px; */
 }
+
 a {
   text-decoration: none;
   color: gold;
@@ -47,6 +55,8 @@ a {
 
 ul li {
   list-style: none;
+}
+.navigationBar {
 }
 .navigationBar ul li:hover {
   /* this is to change the color of the box in the nav links*/
@@ -63,6 +73,7 @@ nav {
 nav ul {
   display: flex;
   justify-content: center;
+  margin-top: 0%;
 }
 nav ul li {
   margin: 5px;
@@ -132,11 +143,6 @@ html {
   padding: 20px;
   background-color: white;
   width: center;
-}
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
 }
 
 /* #subbody {
