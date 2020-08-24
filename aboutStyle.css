@@ -1,0 +1,108 @@
+
+#mainheader {
+    display: flex;
+    vertical-align: text-top;
+    justify-content: right;
+    background-color:#9AC2C9;
+    border-bottom: 2px black solid;
+    color: darkcyan;
+    
+    
+}
+
+
+/* Edit image text overlay */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    border-radius: 25px;
+    background: blue;
+  }
+  
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+
+    
+  
+  }
+  
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+
+  
+}
+  }
+  
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+    background: blue;
+  }
+
+/* end of image edit */
+
+#mainfooter {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    background-color: rgb(233, 201, 19);
+    border-top: 2px black solid;
+}
+
+
+.linkCenter{
+    /* Link borders */
+    border: 2px black solid;
+    /* Change color */
+    color: #FF0000; 
+}
+
+#mainbody {
+    border: 2px solid black;
+    font-family: latha, "Times New Roman", Times, serif;
+    color: black;
+    border: 10px black solid;
+    /* background-color: yellow; */
+    /* background-image: url("rona.jpg") no-repeat; */
+    /* background-size: cover;
+    background-attachment: fixed; */
+  
+}
+
+.text {
+    border-radius: 20px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
+}
+
+#mainLinks{
+    margin:auto;
+    position:relative;
+    width: 600px; /* or whatever width */
+}
+
+#subbody {
+    border-bottom: 2px black solid;
+}
+
+
