@@ -3,25 +3,21 @@
   position: relative;
   width: 600px; /* or whatever width */
 }
-
 /* Edit image text overlay */
 .container {
   position: relative;
   text-align: center;
   color: white;
 }
-
 #top {
   position: absolute;
   top: 8px;
 }
-
 .bottom-right {
   position: absolute;
   bottom: 8px;
   right: 16px;
 }
-
 .centered {
   position: absolute;
   top: 50%;
@@ -31,7 +27,6 @@
   font-size: 40px;
   opacity: 0.9;
 }
-
 #rona {
   border-radius: 35%;
   box-shadow: 5px 15px 50px 2px silver;
@@ -39,15 +34,12 @@
   width: 90%;
   display: inline-block;
 }
-
 /* end of image edit */
-
 /* nav styles */
 #navigationBar {
   border: black;
   /* padding: 1px; */
 }
-
 a {
   text-decoration: none;
   color: gold;
@@ -59,20 +51,19 @@ ul li {
 .navigationBar ul li:hover {
   /* this is to change the color of the box in the nav links*/
   background-color: rgb(60, 117, 223);
+  text-decoration: underline;
+  text-decoration-color: white;
 
   opacity: 0.7;
 }
-
 nav {
   background: black;
   width: 100%;
 }
-
 nav ul {
   display: flex;
   justify-content: center;
 }
-
 nav ul li {
   margin: 5px;
   text-transform: uppercase;
