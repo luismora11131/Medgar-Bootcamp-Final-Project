@@ -35,6 +35,8 @@
   display: inline-block;
 }
 /* end of image edit */
+
+
 /* nav styles */
 #navigationBar {
   border: black;
@@ -46,6 +48,7 @@ a {
 }
 
 ul li {
+  margin: 0;
   list-style: none;
 }
 .navigationBar ul li:hover {
@@ -61,6 +64,7 @@ nav {
   width: 100%;
 }
 nav ul {
+  margin: 0 auto 9px auto;
   display: flex;
   justify-content: center;
 }
@@ -123,16 +127,33 @@ html {
   height: 100%;
 }
 
-.text {
-  align-self: flex-end;
-
-  /* border-radius: 20px; */
-  border-radius: 10%;
+.info{
+  margin: 20px auto auto auto;
   border: 5px solid black;
-  padding: 20px;
-  background-color: white;
-  width: center;
+  border-radius: 27%;
+  background-color: skyblue;
+  align-items: center;
+  width: 60%;
+  height: auto;
+  background-image: linear-gradient(to bottom right, black, grey, white);
+
 }
+.text {
+ margin: auto;
+/* border-radius: 20px; */
+border-radius: 70%;
+border: 5px solid black;
+padding: 20px;
+background-color: khaki;
+width: 90%;
+text-align: center;
+
+
+
+
+}
+
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;

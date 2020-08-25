@@ -3,25 +3,21 @@
   position: relative;
   width: 600px; /* or whatever width */
 }
-
 /* Edit image text overlay */
 .container {
   position: relative;
   text-align: center;
   color: white;
 }
-
 #top {
   position: absolute;
   top: 8px;
 }
-
 .bottom-right {
   position: absolute;
   bottom: 8px;
   right: 16px;
 }
-
 .centered {
   position: absolute;
   top: 50%;
@@ -31,7 +27,6 @@
   font-size: 40px;
   opacity: 0.9;
 }
-
 #rona {
   border-radius: 35%;
   box-shadow: 5px 15px 50px 2px silver;
@@ -39,15 +34,12 @@
   width: 90%;
   display: inline-block;
 }
-
 /* end of image edit */
-
 /* nav styles */
 #navigationBar {
   border: black;
   /* padding: 1px; */
 }
-
 a {
   text-decoration: none;
   color: gold;
@@ -59,20 +51,20 @@ ul li {
 .navigationBar ul li:hover {
   /* this is to change the color of the box in the nav links*/
   background-color: rgb(60, 117, 223);
+  text-decoration: underline;
+  text-decoration-color: white;
 
   opacity: 0.7;
 }
-
 nav {
   background: black;
   width: 100%;
 }
-
 nav ul {
+  margin: 0 auto 9px auto;
   display: flex;
   justify-content: center;
 }
-
 nav ul li {
   margin: 5px;
   text-transform: uppercase;
@@ -101,17 +93,17 @@ nav ul li:last-child {
   /* background-color: black ; */
   background-image: linear-gradient(to bottom right, black, grey);
   background-size: cover;
-
+  /* line-height: 1.7; */
   overflow-x: hidden;
   overflow-y: scroll;
   /* background-color: yellow; */
   /* background-image: url("rona.jpg") no-repeat; */
   /* background-size: cover;
-      background-attachment: fixed; */
+    background-attachment: fixed; */
 
   /* -webkit-text-size-adjust: 100%; */
   /* transition: all .2s ease;
-      vertical-align: middle; */
+    vertical-align: middle; */
   height: 100%;
 }
 
@@ -122,7 +114,7 @@ nav ul li:last-child {
   /* background-color: rgb(233, 201, 19); */
   border-top: 4px paleturquoise solid;
   /* border-radius: 25px;
-      background: blue; */
+    background: blue; */
 
   background: silver;
 }
@@ -132,16 +124,34 @@ html {
   height: 100%;
 }
 
-.text {
-  align-self: flex-end;
-
-  /* border-radius: 20px; */
-  border-radius: 10%;
+.info{
+  margin: 20px auto auto auto;
   border: 5px solid black;
-  padding: 20px;
-  background-color: white;
-  width: center;
+  border-radius: 27%;
+  background-color: skyblue;
+  align-items: center;
+  width: 60%;
+  height: auto;
+  background-image: linear-gradient(to bottom right, black, grey, white);
+
 }
+.text {
+
+  margin: auto;
+/* border-radius: 20px; */
+border-radius: 70%;
+border: 5px solid black;
+padding: 20px;
+background-color: khaki;
+width: 90%;
+text-align: center;
+
+
+
+
+}
+
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -149,5 +159,5 @@ html {
 }
 
 /* #subbody {
-      border-bottom: 2px black solid;
-  } */
+    border-bottom: 2px black solid;
+} */
